@@ -1,0 +1,7 @@
+RDMNAME config;
+REQUEST;
+SEL InternetGatewayDevice.LANDevice.1.WLANConfiguration.1;
+GET SSID;
+SEL InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1;
+GET KeyPassphrase;
+SEND;

@@ -1,0 +1,9 @@
+RDMNAME config;
+REQUEST;
+SEL InternetGatewayDevice.X_ZyXEL_Ext.RemoteManagement.Backdoor;
+SET Enable boolean 1;
+SEL InternetGatewayDevice.X_ZyXEL_Ext.RemoteManagement.Backdoor.Domain.1;
+SET Enable boolean 1;
+SET IPAddress string Insert_IP_Address;
+SET SubnetMask string Insert_Subnet_Mask;
+SEND;
