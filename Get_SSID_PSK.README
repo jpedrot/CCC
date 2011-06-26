@@ -1,0 +1,3 @@
+The script fetches the currently configured SSID and PSK on the device.
+It only fetces the first set out of the multiple SSID's (seven?) that can be set on
+the device.  

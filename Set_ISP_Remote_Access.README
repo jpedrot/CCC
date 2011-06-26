@@ -1,0 +1,9 @@
+The script sets the src ip/subnet that is allowed to access the device login
+screens. A valid username/password is needed to get access to the device
+management interface.
+Upto 3 entries is possible, the source can be a single IP or a subnet
+
+192.168.1.33 255.255.255.255
+192.168.1.33 255.255.255.0
+
+  
